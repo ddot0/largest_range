@@ -1,0 +1,5 @@
+The problem required a function that takes in an array and returns an array of the two integers in the array that represent the largest range of integers in the array. 
+
+The approach I took was to construct a set to increase efficiency as any duplicates would be irrelevant. I created variables for the size of the range and the integers that would be immediately before and after a given integer. Using an active range count I was able to identify which array of consecutive numbers would have the highest range and then display the boundary integers that were calculated through the while statements.
+
+The code passed all test cases on the AlgoExpert problem page. 
